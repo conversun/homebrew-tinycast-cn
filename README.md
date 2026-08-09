@@ -6,6 +6,7 @@ interface and pinyin (full and initials) matching for Han-script app names. Univ
 (`arm64` + `x86_64`).
 
 ```sh
+brew trust --tap conversun/tinycast-cn   # Homebrew requires this for third-party taps
 brew tap conversun/tinycast-cn
 brew install --cask tinycast-cn
 ```
