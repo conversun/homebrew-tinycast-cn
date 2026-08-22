@@ -1,7 +1,7 @@
 cask "tinycast-cn" do
   # `version` and `sha256` are bumped automatically by the tinycast-cn Release CN workflow.
-  version "0.9.5-cn.2"
-  sha256 "652eecf6524d2064cfb307660e579a7e3711c6283b7a4736e05a7176c96049ca"
+  version "0.9.8-cn.1"
+  sha256 "9ecd5310cb3e28cb71315d79873ba95b9f3abf01b6034523b1c605d54c5d3ad0"
 
   url "https://github.com/conversun/tinycast-cn/releases/download/v#{version}/Tinycast-CN-#{version}.dmg",
       verified: "github.com/conversun/tinycast-cn/"
