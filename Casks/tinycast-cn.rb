@@ -12,6 +12,7 @@ cask "tinycast-cn" do
   conflicts_with cask: [
     "abue-ammar/tinycast/tinycast",
     "abue-ammar/tinycast/tinycast-sequoia",
+    "abue-ammar/tinycast/tinycast-universal",
   ]
   depends_on macos: :tahoe
 
